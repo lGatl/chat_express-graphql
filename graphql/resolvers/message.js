@@ -16,7 +16,7 @@ module.exports = {
       author: args.messageInput.author,
       message: args.messageInput.message,
       salle: args.messageInput.salle,
-      date: new Date(args.messageInput.date),
+      date: new Date(Date.now()),
     });
     let createdMessage;
     try {
